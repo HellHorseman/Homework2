@@ -48,17 +48,28 @@ public class Main {
     }
 
     private static void task4() {
+        System.out.println("Задача 4");
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
     }
 
     private static void task5() {
+        System.out.println("Задача 5");
     }
 
     private static void task6() {
+        System.out.println("Задача 6");
     }
 
     private static void task7() {
+        System.out.println("Задача 7");
     }
 
     private static void task8() {
+        System.out.println("Задача 8");
     }
 }
