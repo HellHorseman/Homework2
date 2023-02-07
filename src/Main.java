@@ -81,6 +81,12 @@ public class Main {
 
     private static void task7() {
         System.out.println("Задача 7");
+        var boxerWight1 = 78.2;
+        var boxerWight2 = 82.7;
+        var differentWight1 = boxerWight2 - boxerWight1;
+        System.out.println("Разница в весе " + differentWight1 + " кг");
+        var differentWight2 = boxerWight2 % boxerWight1;
+        System.out.println("Разница в весе " + differentWight2 + " кг");
     }
 
     private static void task8() {
