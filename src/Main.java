@@ -91,5 +91,12 @@ public class Main {
 
     private static void task8() {
         System.out.println("Задача 8");
+        var totalWorkTime = 640;
+        var oneWorkerTime = 8;
+        var totalWorkers = totalWorkTime / oneWorkerTime;
+        System.out.println("Всего работников в компании - " + totalWorkers + " человек");
+        totalWorkers = totalWorkers + 94;
+        oneWorkerTime = totalWorkTime / totalWorkers;
+        System.out.println("Если в компании работает " + totalWorkers + " человека, то всего " + oneWorkerTime + " часа работы может быть поделено между сотрудниками");
     }
 }
